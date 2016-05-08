@@ -20,8 +20,8 @@ description of the in-focus widget.
 Pre-requisites
 --------------
 
-- Android SDK v22
-- Android Build Tools v22.0.1
+- Android SDK android-N
+- Android Build Tools 24.0.0 rc3
 - Android Support Repository
 
 Screenshots
