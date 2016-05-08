@@ -19,8 +19,8 @@ SYSTEM_UI_FLAG_IMMERSIVE system ui flag. When combined with the SYSTEM_UI_FLAG_H
 Pre-requisites
 --------------
 
-- Android SDK v22
-- Android Build Tools v22.0.1
+- compileSdkVersion 'android-N'
+    buildToolsVersion "24.0.0 rc3"
 - Android Support Repository
 
 Screenshots
