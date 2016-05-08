@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="E:\android-6.0\ui\BasicImmersiveMode\Application\build\intermediates\exploded-aar\com.android.support\support-v4\23.3.0\jars\classes.jar"
+        jumboMode="true"
+        revision="24.0.0 rc3"
+        sha1="8a034dd16c0dfd75fe86c52c2cd581592acc684a">
+        <dex dex="E:\android-6.0\ui\BasicImmersiveMode\Application\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-v4-23.3.0_38b72b19e891a91c4d9ab5dd50e099e33ededc37\classes.dex" />
+    </item>
+    <item
+        jar="E:\android-6.0\ui\BasicImmersiveMode\Application\build\intermediates\exploded-aar\com.android.support\cardview-v7\23.3.0\jars\classes.jar"
+        jumboMode="true"
+        revision="24.0.0 rc3"
+        sha1="82ce13fd19cdfde0e392f03c27edeba8d4333648">
+        <dex dex="E:\android-6.0\ui\BasicImmersiveMode\Application\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-cardview-v7-23.3.0_b914d998207281aa52555655e4d9cf672b432b46\classes.dex" />
+    </item>
+    <item
+        jar="E:\android-6.0\ui\BasicImmersiveMode\Application\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        revision="24.0.0 rc3"
+        sha1="32af6429bec0c41d6601a015bcb55fe0bf5992ba">
+        <dex dex="E:\android-6.0\ui\BasicImmersiveMode\Application\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run-bootstrap_57a30eb3ecfacbc697f8b93755d2341b2395b287\classes.dex" />
+    </item>
+    <item
+        jar="E:\android-6.0\ui\BasicImmersiveMode\Application\build\intermediates\exploded-aar\com.android.support\support-v13\23.3.0\jars\libs\internal_impl-23.3.0.jar"
+        jumboMode="true"
+        revision="24.0.0 rc3"
+        sha1="8813bdcf7583107c4873150075d17c8072ec50cf">
+        <dex dex="E:\android-6.0\ui\BasicImmersiveMode\Application\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-23.3.0_7ce02291e54f98b28a3b9adfab3d7d8a06e9e584\classes.dex" />
+    </item>
+    <item
+        jar="E:\android-6.0\ui\BasicImmersiveMode\Application\build\intermediates\exploded-aar\com.android.support\support-v4\23.3.0\jars\libs\internal_impl-23.3.0.jar"
+        jumboMode="true"
+        revision="24.0.0 rc3"
+        sha1="4da5a4d697d32497c6f85567a5112e62fdfd0676">
+        <dex dex="E:\android-6.0\ui\BasicImmersiveMode\Application\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-23.3.0_903e248a9862d75753f43d157f3773e0f4471e4d\classes.dex" />
+    </item>
+    <item
+        jar="E:\android-6.0\ui\BasicImmersiveMode\Application\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        revision="24.0.0 rc3"
+        sha1="428d9fcf9999aefa6419573f519b7970028cc729">
+        <dex dex="E:\android-6.0\ui\BasicImmersiveMode\Application\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run_0d68b94b37f2916fd45c305ac7cf735b544e1f45\classes.dex" />
+    </item>
+    <item
+        jar="E:\android-6.0\ui\BasicImmersiveMode\Application\build\intermediates\exploded-aar\com.android.support\support-v13\23.3.0\jars\classes.jar"
+        jumboMode="true"
+        revision="24.0.0 rc3"
+        sha1="a809555a2599054c3dcd1bf82b089315ac3a11df">
+        <dex dex="E:\android-6.0\ui\BasicImmersiveMode\Application\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-v13-23.3.0_96d15afa3cd3d8fdc33998f56d7a19260189fddc\classes.dex" />
+    </item>
+    <item
+        jar="F:\AndriodSDK\extras\android\m2repository\com\android\support\support-annotations\23.3.0\support-annotations-23.3.0.jar"
+        jumboMode="true"
+        revision="24.0.0 rc3"
+        sha1="db7791d75a07fef9844d06236c1c59ba7bf6997c">
+        <dex dex="E:\android-6.0\ui\BasicImmersiveMode\Application\build\intermediates\transforms\dex\debug\folders\1000\10\support-annotations-23.3.0_f7e71ea87e4555ef16e649750d32da69278670fe\classes.dex" />
+    </item>
+
+</items>
