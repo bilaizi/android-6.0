@@ -20,11 +20,7 @@ Pre-requisites
 --------------
 
 - compileSdkVersion 'android-N'
-<<<<<<< HEAD
 - buildToolsVersion "24.0.0 rc3"
-=======
-    - buildToolsVersion "24.0.0 rc3"
->>>>>>> parent of 15587a9... Android Samples
 - Android Support Repository
 
 Screenshots
