@@ -1,23 +1,8 @@
-/*
- * Copyright (C) 2013 The Android Open Source Project
- *
- * Licensed under the Apache License, Version 2.0 (the "License");
- * you may not use this file except in compliance with the License.
- * You may obtain a copy of the License at
- *
- *      http://www.apache.org/licenses/LICENSE-2.0
- *
- * Unless required by applicable law or agreed to in writing, software
- * distributed under the License is distributed on an "AS IS" BASIS,
- * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
- * See the License for the specific language governing permissions and
- * limitations under the License.
- */
 package com.example.android.common.logger;
 
 import android.app.Activity;
 import android.content.Context;
-import android.util.*;
+import android.util.AttributeSet;
 import android.widget.TextView;
 
 /** Simple TextView which is used to output log data received through the LogNode interface.
@@ -46,10 +31,7 @@ public class LogView extends TextView implements LogNode {
      */
     @Override
     public void println(int priority, String tag, String msg, Throwable tr) {
-
-        
         String priorityStr = null;
-
         // For the purposes of this View, we want to print the priority as readable text.
         switch(priority) {
             case android.util.Log.VERBOSE:
@@ -73,23 +55,19 @@ public class LogView extends TextView implements LogNode {
             default:
                 break;
         }
-
         // Handily, the Log class has a facility for converting a stack trace into a usable string.
         String exceptionStr = null;
         if (tr != null) {
             exceptionStr = android.util.Log.getStackTraceString(tr);
         }
-
         // Take the priority, tag, message, and exception, and concatenate as necessary
         // into one usable line of text.
         final StringBuilder outputBuilder = new StringBuilder();
-
         String delimiter = "\t";
         appendIfNotNull(outputBuilder, priorityStr, delimiter);
         appendIfNotNull(outputBuilder, tag, delimiter);
         appendIfNotNull(outputBuilder, msg, delimiter);
         appendIfNotNull(outputBuilder, exceptionStr, delimiter);
-
         // In case this was originally called from an AsyncTask or some other off-UI thread,
         // make sure the update occurs within the UI thread.
         ((Activity) getContext()).runOnUiThread( (new Thread(new Runnable() {
@@ -99,7 +77,6 @@ public class LogView extends TextView implements LogNode {
                 appendToLog(outputBuilder.toString());
             }
         })));
-
         if (mNext != null) {
             mNext.println(priority, tag, msg, tr);
         }
@@ -127,7 +104,6 @@ public class LogView extends TextView implements LogNode {
             if (addStr.length() == 0) {
                 delimiter = "";
             }
-
             return source.append(addStr).append(delimiter);
         }
         return source;

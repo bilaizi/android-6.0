@@ -16,19 +16,15 @@ import android.widget.ScrollView;
  * through the LogNode interface.
  */
 public class LogFragment extends Fragment {
-
     private LogView mLogView;
     private ScrollView mScrollView;
-
     public LogFragment() {}
-
     public View inflateViews() {
         mScrollView = new ScrollView(getActivity());
         ViewGroup.LayoutParams scrollParams = new ViewGroup.LayoutParams(
                 ViewGroup.LayoutParams.MATCH_PARENT,
                 ViewGroup.LayoutParams.MATCH_PARENT);
         mScrollView.setLayoutParams(scrollParams);
-
         mLogView = new LogView(getActivity());
         ViewGroup.LayoutParams logParams = new ViewGroup.LayoutParams(scrollParams);
         logParams.height = ViewGroup.LayoutParams.WRAP_CONTENT;
@@ -36,7 +32,6 @@ public class LogFragment extends Fragment {
         mLogView.setClickable(true);
         mLogView.setFocusable(true);
         mLogView.setTypeface(Typeface.MONOSPACE);
-
         // Want to set padding as 16 dips, setPadding takes pixels.  Hooray math!
         int paddingDips = 16;
         double scale = getResources().getDisplayMetrics().density;
