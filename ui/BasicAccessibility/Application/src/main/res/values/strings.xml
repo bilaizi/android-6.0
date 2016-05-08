@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="composeButtonPressed">(Compose button pressed.)</string>
+    <string name="discardButtonPressed">(Discard button pressed.)</string>
+    <string name="infoButtonPressed">(Info button pressed.)</string>
+    <string name="composeButtonLabel">Compose</string>
+    <string name="discardButtonDescription">Discard Button</string>
+    <string name="infoButtonDescription">Info Button</string>
+    <string name="partlyCloudyDescription">Partly Cloudy</string>
+    <string name="checkboxesLabel">Checkboxes</string>
+    <string name="jetpackCheckboxLabel">Enable Jetpack</string>
+    <string name="hyperspaceCheckboxLabel">Enable Hyperspace Engines</string>
+    <string name="imagesAndTextLabel">Images &amp; Text</string>
+    <string name="temperature">53 °F</string>
+    <string name="customViewLabel">Custom View</string>
+    <string name="buttons">Buttons</string>
+</resources>

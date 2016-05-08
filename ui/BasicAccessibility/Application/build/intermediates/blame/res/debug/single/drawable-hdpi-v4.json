@@ -1,0 +1,22 @@
+[
+    {
+        "merged": "E:\\android-6.0\\ui\\BasicAccessibility\\Application\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_action_discard.png",
+        "source": "E:\\android-6.0\\ui\\BasicAccessibility\\Application\\src\\main\\res\\drawable-hdpi\\ic_action_discard.png"
+    },
+    {
+        "merged": "E:\\android-6.0\\ui\\BasicAccessibility\\Application\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\tile.9.png",
+        "source": "E:\\android-6.0\\ui\\BasicAccessibility\\Application\\src\\main\\res\\drawable-hdpi\\tile.9.png"
+    },
+    {
+        "merged": "E:\\android-6.0\\ui\\BasicAccessibility\\Application\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\partly_cloudy.png",
+        "source": "E:\\android-6.0\\ui\\BasicAccessibility\\Application\\src\\main\\res\\drawable-hdpi\\partly_cloudy.png"
+    },
+    {
+        "merged": "E:\\android-6.0\\ui\\BasicAccessibility\\Application\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_launcher.png",
+        "source": "E:\\android-6.0\\ui\\BasicAccessibility\\Application\\src\\main\\res\\drawable-hdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "E:\\android-6.0\\ui\\BasicAccessibility\\Application\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_action_info.png",
+        "source": "E:\\android-6.0\\ui\\BasicAccessibility\\Application\\src\\main\\res\\drawable-hdpi\\ic_action_info.png"
+    }
+]
