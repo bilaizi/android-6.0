@@ -20,6 +20,7 @@ Pre-requisites
 --------------
 
 - compileSdkVersion 'android-N'
+
     buildToolsVersion "24.0.0 rc3"
 - Android Support Repository
 
